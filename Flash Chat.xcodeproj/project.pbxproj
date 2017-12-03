@@ -86,9 +86,8 @@
 			isa = PBXGroup;
 			children = (
 				686E9DB81FD44D4100BD6E20 /* Models */,
-				686E9DB71FD44D2700BD6E20 /* Controllers */,
 				686E9DB91FD44D5A00BD6E20 /* Views */,
-				6854B9BB1FCC921800DED23E /* AppDelegate.swift */,
+				686E9DB71FD44D2700BD6E20 /* Controllers */,
 				6854B9C21FCC921800DED23E /* Assets.xcassets */,
 				686E9DC81FD450FD00BD6E20 /* LaunchScreen.storyboard */,
 				6854B9C71FCC921800DED23E /* Info.plist */,
@@ -100,6 +99,7 @@
 		686E9DB71FD44D2700BD6E20 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				6854B9BB1FCC921800DED23E /* AppDelegate.swift */,
 				686E9DC61FD44FFF00BD6E20 /* WelcomeViewController.swift */,
 				686E9DC41FD44FCD00BD6E20 /* RegisterViewController.swift */,
 				686E9DBC1FD44E6E00BD6E20 /* CustomMessageCell.swift */,
