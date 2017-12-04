@@ -102,7 +102,6 @@
 				6854B9BB1FCC921800DED23E /* AppDelegate.swift */,
 				686E9DC61FD44FFF00BD6E20 /* WelcomeViewController.swift */,
 				686E9DC41FD44FCD00BD6E20 /* RegisterViewController.swift */,
-				686E9DBC1FD44E6E00BD6E20 /* CustomMessageCell.swift */,
 				686E9DBE1FD44ED200BD6E20 /* LoginViewController.swift */,
 				686E9DBA1FD44DE400BD6E20 /* ChatViewController.swift */,
 				6854B9BD1FCC921800DED23E /* ViewController.swift */,
@@ -121,10 +120,19 @@
 		686E9DB91FD44D5A00BD6E20 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				68AD243E1FD5BD2A00B8F37B /* CustomCell */,
 				686E9DCA1FD451EE00BD6E20 /* Main.storyboard */,
-				686E9DC21FD44F9B00BD6E20 /* MessageCell.xib */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		68AD243E1FD5BD2A00B8F37B /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				686E9DBC1FD44E6E00BD6E20 /* CustomMessageCell.swift */,
+				686E9DC21FD44F9B00BD6E20 /* MessageCell.xib */,
+			);
+			path = CustomCell;
 			sourceTree = "<group>";
 		};
 		9E05BD04C64C71767640A3B3 /* Pods */ = {

@@ -6,4 +6,7 @@
 //  Copyright © 2017 Radoslav Hlinka. All rights reserved.
 //
 
-class Message {}
+class Message {
+    var sender: String = ""
+    var messageBody: String = ""
+}
